@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: energy_country_year
+    columns:
+      - name: country
+        tests:
+          - not_null
+
+      - name: year
+        tests:
+          - not_null
+
+      - name: total_energy_consumption
+        tests:
+          - not_null
